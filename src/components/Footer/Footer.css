@@ -1,0 +1,31 @@
+.Footer {
+
+  background-color: rgb(2, 2, 27) !important;
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer img {
+  width: 12rem;
+  padding: 1rem;
+}
+
+.Footer p {
+  color: white;
+}
+
+.ul-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.ul-footer img {
+  width: 3rem;
+  padding: 0.5rem;
+}

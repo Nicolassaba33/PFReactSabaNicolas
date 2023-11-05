@@ -1,0 +1,29 @@
+.DetalleNoticias {
+  text-decoration: none;
+}
+
+.cardNews {
+  height: 20rem;
+}
+
+.imgNews {
+  width: 30rem;
+  height: 12rem;
+}
+
+.titleNews {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(25, 113, 172, 0.904);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 13rem;
+  text-align: center;
+}
+
+.dataNews {
+  text-decoration: none;
+}

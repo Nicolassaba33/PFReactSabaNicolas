@@ -1,0 +1,32 @@
+/*SponsorsList*/
+.SponsorsList {
+  background-color: #0c74ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+  margin-top: 2rem;
+}
+
+.titleSponsors {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/*Sponsors */
+.cardSponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem;
+  border: #0c74ac solid !important;
+}
+.imgSponsor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c74ac;
+  height: 4rem;
+}

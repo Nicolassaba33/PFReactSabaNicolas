@@ -1,0 +1,16 @@
+.cardProduct {
+  margin: 2rem 0;
+  width: 20rem;
+  height: 22rem;
+  display: flex;
+}
+
+.imgProduct {
+  padding: 0.5rem;
+  height: 210px;
+}
+
+.titleProduct {
+  display: flex;
+  justify-content: center;
+}
