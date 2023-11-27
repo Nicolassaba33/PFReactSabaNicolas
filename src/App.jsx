@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //Components
 import Header from "./components/Header/Header";
@@ -15,26 +15,31 @@ import NewsPage from "./pages/NewsPage/NewsPage";
 import StorePage from "./pages/StorePage/StorePage";
 import TeamPage from "./pages/TeamPage/TeamPage";
 import SponsorsListContainer from "./components/Sponsors/SponsorsListContainer";
+import ProductListContainer from "./components/Product/ProductListContainer";
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Header />
         <NavBar />
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/news" element={<NewsPage />} />
-          <Route path="/news/:id" element={<NoticiasDetailContainer />} />
-          <Route path="/stores" element={<StorePage />} />
-          <Route path="/stores/:id" element={<ProductDetailContainer />} />
-          <Route path="/players" element={<TeamPage />} />{" "}
+          <Route path="/noticias" element={<NewsPage />} />
+          <Route path="/noticias/:id" element={<NoticiasDetailContainer />} />
+          <Route path="/productos" element={<StorePage />} />
+          <Route path="/productos/:id" element={<ProductDetailContainer />} />
+          <Route
+            path="/productos/:categoria"
+            element={<ProductListContainer />}
+          />
+          <Route path="/worldrugbycup" element={<TeamPage />} />{" "}
         </Routes>
         <SponsorsListContainer />
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 

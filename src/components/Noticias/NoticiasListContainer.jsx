@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../../Firebase/config";
+import { db } from "../../firebase/config";
 import NoticiasList from "./NoticiasList";
 const NoticiasListContainer = () => {
   const [noticias, setNoticias] = useState([]);

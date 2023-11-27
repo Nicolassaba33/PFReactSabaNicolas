@@ -39,10 +39,17 @@ const Product = ({ producto }) => {
             >
               ${producto.Precio}
             </Typography>
+            <Typography
+              variant="body1"
+              color="text.secondary"
+              textAlign="center"
+            >
+              {producto.Categoria}
+            </Typography>
           </CardContent>
         </CardActionArea>{" "}
         <CardActions>
-          <Link to={`/stores/${producto.id}`} className="buttonProduct">
+          <Link to={`/productos/${producto.id}`} className="buttonProduct">
             <Button variant="contained">Ver Producto</Button>
           </Link>
         </CardActions>

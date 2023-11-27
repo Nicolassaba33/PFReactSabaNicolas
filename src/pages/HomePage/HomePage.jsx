@@ -13,7 +13,7 @@ const HomePage = () => {
     <div className="home-container">
       <div className="img-container">
         <img src={banner} alt="Equipo De Los Pumas" className="imgBanner" />
-        <h1 className="h1Banner">NUESTROS LUCHADORES</h1>
+        <h1 className="h1Banner">NUESTROS GUERREROS</h1>
       </div>
       <h2 className="h1Equipo">NUESTROS EQUIPOS</h2>
       <div className="equipos-container">

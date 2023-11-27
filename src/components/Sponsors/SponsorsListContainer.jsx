@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../../Firebase/config";
+import { db } from "../../firebase/config";
 import SponsorsList from "./SponsorsList";
 
 const SponsorsListContainer = () => {

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import NewDetail from "../../pages/NewsDetail/NewDetail";
 import { useParams } from "react-router-dom";
 import { doc, getDoc } from "firebase/firestore";
-import { db } from "../../Firebase/config";
+import { db } from "../../firebase/config";
 
 const NoticiasDetailContainer = () => {
   const [noticia, setNoticia] = useState(null);

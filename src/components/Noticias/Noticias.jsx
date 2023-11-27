@@ -8,7 +8,7 @@ import "./Noticias.css";
 const Noticias = ({ news }) => {
   return (
     <Grid item xs={4} className="gridNews">
-      <Link to={`/news/${news.id}`} className="DetalleNoticias">
+      <Link to={`/noticias/${news.id}`} className="DetalleNoticias">
         <Card sx={{ maxWidth: 400, marginTop: 4 }} className="cardNews">
           <CardActionArea>
             <CardMedia
